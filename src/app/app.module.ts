@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PagesComponent } from './pages/pages.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { ContractorComponent } from './pages/contractor/contractor.component';
@@ -21,11 +20,12 @@ import { SearchbarComponent } from './components/searchbar/searchbar.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { AddreviewsComponent } from './components/addreviews/addreviews.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { RouterOutlet,RouterLink } from '@angular/router';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PagesComponent,
     HomeComponent,
     ServicesComponent,
     ContractorComponent,
@@ -42,11 +42,13 @@ import { ProjectsComponent } from './components/projects/projects.component';
     SearchbarComponent,
     ReviewsComponent,
     AddreviewsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterOutlet
   ],
   providers: [],
   bootstrap: [AppComponent]
