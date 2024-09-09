@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutext{
+   text-align: center;
+}
+.aboutimg{
+   justify-content: center;
+   display: flex;
+}
+#aboutimg{
+    width: 60%;
+}
