@@ -4,7 +4,7 @@ flex-direction: row;
 text-align: center;
 }
 .couresal{
- background-image: url('/assets/couresal-img-Mobile.png');
+ background-image: url('/assets/couresal-img-Mobile.png'); /// make sure that you arrange pictires with folders as they are untidy in the assest folder if you are createing pictures for courasal put them in courasal folder under assests
  background-size: cover;
  background-repeat: no-repeat;
  width: 100%;
@@ -15,7 +15,7 @@ text-align: center;
     padding-top: 10%;
 } 
 .button {
-  background-color: #e0ac1c;
+  background-color: #e0ac1c; /// not supposed to be here this color is supposed to be in styles.scss under root cause it's the main color we don't code color in a component 
   border-radius:7px;
   border: none;
   color: white;
