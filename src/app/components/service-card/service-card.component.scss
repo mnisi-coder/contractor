@@ -1,16 +1,47 @@
-.container1{
-    background-color:green;
+.Container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ServicesHandP{
+    text-align: center;
+    padding-top: 6%;
+}
+.ServicesHandP h1{
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.ContainerServicesImagesFirstrow{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
-.container2{
-    background-color:rgb(128, 0, 64);
-    display: flex;
-    flex-direction: row;
+.Containerservices1{
+  width:25%;
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 15px;
+  align-content: center;
+  justify-content: center;
+   margin: 2%;
 }
-#icon1{
-    width:30%
+.innovation{
+    width:60%;
+    border-radius: 50%;
+    padding-top: 5%;
 }
-.servicebox1{
-    width: 60%;
+.Containerservices1 h3{
+  color: #bbb6a6;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding-bottom: 8%;
+  font-size: 14px
 }
+

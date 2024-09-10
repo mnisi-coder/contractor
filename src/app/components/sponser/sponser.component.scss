@@ -1,0 +1,35 @@
+.Sponsorstext{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.text{
+    text-align: center;
+    padding-top: 6%;
+}
+.text h1{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+  }
+  .Container4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+}
+.SponsorsImg{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+.img{
+justify-content: center;
+display: flex;
+}
+#logo{
+    width: 50%;
+}

@@ -1,0 +1,226 @@
+.Container5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+  }
+  .ContactUsh1andp{
+    width: 100%;
+  }
+  .ContactUsh1andp h1{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    padding-top: 5%;
+    
+  }
+  .containerContact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+  }
+  input{
+    border-radius: 10px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    line-height: 10px;
+  }
+  textarea{
+    border-radius: 10px;
+  }
+  
+  #contact {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section-header {
+    text-align: center;
+    font: 300 60px 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+   width: 100%;
+  }
+  .direct-contact-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+  }  
+  /* Left contact page */
+  
+  .form-control, 
+  textarea {
+    width: 70%;
+    background-color: #ffffff;
+    color: #757474;
+    letter-spacing: 1px;
+    margin-top: 4%;
+    border: 1px solid transparent;
+  }
+  #name{
+    height: 4vh;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  #email{
+    height: 4vh;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  #message{
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    font-size: 15px;
+    padding-top: 2%;
+  }
+  .send-button {
+    margin-top: 15px;
+    height: 8vh;
+    width: 70%;
+    overflow: hidden;
+    background-color:#d69615;
+    border: none;
+    border-radius: 10px;
+  }
+  .send-button:hover{
+    background-color:#9e7421;
+    border: 2px solid #e7cda0;
+  }
+  .send-text {
+    display: block;
+    margin-top: 10px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  /* Begin Right Contact Page */
+  .direct-contact-container {
+    padding-top: 10%;
+    width: 100%;
+  }
+  /* Location, Phone, Email Section */
+  .contact-list {
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 10px;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: #000000;
+  }
+  
+  .contact-text {
+    font: 300 13px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #000000;
+  }
+  
+  .place {
+    margin-left: 62px;
+  }
+  .phone {
+    margin-left: 56px;
+  }
+  
+  .gmail {
+    margin-left: 53px;
+  }
+  
+  .contact-text a {
+    color: #000000;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Social Media Icons */
+  .social-media-list {
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+  
+    padding: 0;
+  }
+  
+  .social-media-list li a {
+    color: #fff;
+    
+  }
+  
+  .social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin: 17px 3px;
+    border-radius: 50%;
+    color: #000000;
+    background-color:#d69615;
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:hover {
+    background-color: #fff; 
+  }
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  
+  .social-media-list li:hover a {
+    color: #000;
+  }
+  
+  .copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 15%;
+  }
+  
+  hr {
+    border-color: rgba(255,255,255,.6);
+  }
