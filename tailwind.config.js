@@ -4,6 +4,13 @@ module.exports = {
     "./src/**/*.{html,ts}"
   ],
   theme: {
+    colors: {
+      mainColor : '#e0ac1c',
+      secondaryColor : '#edd592',
+      textColorNF : '#edd592',  //text color for not found page 
+      textButton : 'white',
+      textButtonHV : 'black'
+    },
     extend: {},
   },
   plugins: [
