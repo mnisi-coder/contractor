@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+//Tailwind components 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+// font import 
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+
+    //web colors below
+    --main: #e0ac1c ;
+    --secondaryMain: #edd592;
+    --background: ;
+    --textPrimarycolor : ;
+    --textSecondarycolor : ;
+
+    // WEb font below
+    // main font 
+    font-family: "Mingzat", sans-serif; //you can change this one 
+    font-style: normal;
+    
+
+    // Additional fonts if needed
+    --buttonFont : ;
+    --headerfont : ;
+
+  }
