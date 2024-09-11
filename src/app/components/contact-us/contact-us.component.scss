@@ -3,7 +3,6 @@
     flex-direction: column;
     text-align: center;
     width: 100%;
-    text-align: center;
   }
   .ContactUsh1andp{
     width: 100%;
@@ -19,9 +18,9 @@
   .containerContact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 100%;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     padding-top: 2%;
   }
   input{
@@ -54,20 +53,20 @@
     margin: 0 auto;
     padding: 20px;
     position: relative;
-   width: 100%;
+     width: 100%;
   }
   .direct-contact-container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
+    
 
   }  
   /* Left contact page */
   
   .form-control, 
   textarea {
-    width: 70%;
+    width: 100%;
     background-color: #ffffff;
     color: #757474;
     letter-spacing: 1px;
@@ -75,12 +74,12 @@
     border: 1px solid transparent;
   }
   #name{
-    height: 4vh;
+    height: 6vh;
     border: 1px solid transparent;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   }
   #email{
-    height: 4vh;
+    height: 6vh;
     border: 1px solid transparent;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   }
@@ -93,7 +92,7 @@
   .send-button {
     margin-top: 15px;
     height: 8vh;
-    width: 70%;
+    width: 100%;
     overflow: hidden;
     background-color:#d69615;
     border: none;

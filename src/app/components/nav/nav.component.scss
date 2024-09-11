@@ -1,5 +1,5 @@
 #logo{
-  width: 40%;
+  width: 20%;
 }
 .sidenav {
   height: 100%;
@@ -8,7 +8,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(0, 0, 0)fff;
+  background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -37,8 +37,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: rgb(255, 0, 0);
-  height: 10vh;
+  background-color: var(--textSecondarycolor);
 }
 .navbar{
 width: 50%;
@@ -57,20 +56,52 @@ padding: 2%;
 .navPC a:hover{
 background-color:#AB8E5D;
 border: 1px solid transparent;
-color: white;
+color:var();
 padding: 3px 16px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
-height: 4vh;
 }
 .Menubarcontainer{
 width: 50%;
 }
 .Menubar{
  float: right;
- padding-right: 10%;
- padding-top:7%;
- color:white;
+ padding-right: 8%;
+ padding-top: 3%;
+ color:var(--textPrimarycolor);
 }
+.profileimg{
+  display: none;
+}
+/*desktop*/
+@media screen and (min-width: 1024px){
+  .Menubar{
+    display: none;
+}
+
+  .navbarpc{
+    width: 100%;
+    display: flex;
+
+  }
+  .navPC{
+    padding-top:4%;
+    width: 60%;
+    text-align: center;
+    justify-content: space-between;
+
+    
+  }
+  .profileimg{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .profileimage{
+    width: 20%;
+}
+}
+
+ 

@@ -58,3 +58,15 @@
     color: rgb(160, 160, 160);
     padding-top: 2%;
 }
+@media screen and (min-width: 1024px){
+  .ContainerServicesImagesFirstrow{
+     flex-direction:row;
+     width: 100%;
+     flex-wrap: wrap;
+  }
+  .Containerservices1{
+   flex-direction: row;
+   display: flex;
+  width: 20%;
+  }
+}
