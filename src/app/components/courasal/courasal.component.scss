@@ -4,22 +4,23 @@ flex-direction: row;
 text-align: center;
 }
 .couresal{
- background-image: url('/assets/couresal-img-Mobile.png'); /// make sure that you arrange pictires with folders as they are untidy in the assest folder if you are createing pictures for courasal put them in courasal folder under assests
+ background-image: url('/assets/couresal-images/couresal-img-Mobile.png'); /// make sure that you arrange pictires with folders as they are untidy in the assest folder if you are createing pictures for courasal put them in courasal folder under assests
  background-size: cover;
  background-repeat: no-repeat;
  width: 100%;
  height: 50vh;
 }
 .couresal h1{
-    color:#202020;
-    padding-top: 10%;
+    color: var(--textPrimarycolor) ;
+    padding-top: 20%;
+    font-size: var(--PrimaryHeaders);
 } 
 .button {
-  background-color: #e0ac1c; /// not supposed to be here this color is supposed to be in styles.scss under root cause it's the main color we don't code color in a component 
+  background-color:var(--main); /// not supposed to be here this color is supposed to be in styles.scss under root cause it's the main color we don't code color in a component 
   border-radius:7px;
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: var(--textPrimarycolor);
+  padding: 15px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
