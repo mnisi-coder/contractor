@@ -8,40 +8,53 @@
     padding-top: 6%;
 }
 .ServicesHandP h1{
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: var();
   font-weight: 500;
   font-style: normal;
-  font-size: 28px;
+  font-size: var(--SecondaryHeaders);
 }
 
 .ContainerServicesImagesFirstrow{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 .Containerservices1{
-  width:25%;
+  width:80%;
   text-align: center;
   border: 1px solid transparent;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  border-radius: 15px;
   align-content: center;
   justify-content: center;
-   margin: 2%;
+  flex-direction:row;
+  display: flex;
+  margin: 2%;
 }
-.innovation{
-    width:60%;
-    border-radius: 50%;
-    padding-top: 5%;
+.images{
+  width:50%;
+   
 }
-.Containerservices1 h3{
-  color: #bbb6a6;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  padding-bottom: 8%;
-  font-size: 14px
+.IconsText{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
 }
-
+.icons{
+ width: 30%;
+ padding-top: 3%;
+ border-radius:50%;
+}
+.IconsText h1{
+    font-size:20px;
+    color: var(--textSecondarycolor );
+    font-weight: 500;
+}
+.IconsText p{
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+    padding-top: 2%;
+}
