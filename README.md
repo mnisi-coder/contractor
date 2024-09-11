@@ -53,6 +53,36 @@ steps to install Daisy UI - [Reference](https://daisyui.com/docs/install/)
 
 Steps to use fonts :[Reference] (https://fonts.google.com/selection)
 
+## 4 Icons
+
+1. flaticon:  https://www.flaticon.com/free-icon/house_602287?term=construction&page=1&position=10&origin=search&related_id=602287
+
+2. icons 8 : https://icons8.com/icons/set/construction
+
+
+3 Undraw: https://undraw.co/illustrations
+
+4. freesvg : https://freesvg.org/
+
+
+5. heroicons : https://heroicons.com/
+
+6. icon finder : https://www.iconfinder.com/ 
+
+
+
+
+## Design  inspiration websites
+unsplash : https://unsplash.com/
+uidesigndaily : https://www.uidesigndaily.com/
+https://isometric.online/
+https://pl.pinterest.com/maciejmusialik/app-design/
+https://usbrandcolors.com/
+
+## Our design inspo
+
+>
+
 
 
 ## Errors session
