@@ -17,9 +17,10 @@
     --main: #e0ac1c ;
     --secondaryMain: #edd592;
     --background: ;
-    --textPrimarycolor : ;
-    --textSecondarycolor : ;
-
+    --textPrimarycolor :#ffffff ;
+    --textSecondarycolor : #000000 ;
+    --textParagraphcolor:grey;
+    
     // WEb font below
     // main font 
     // font-family: "Mingzat", sans-serif; //you can change this one 
@@ -29,4 +30,13 @@
     --buttonFont : ;
     --headerfont : ;
 
-  }
+
+    //fontSizes(mobile)
+    --PrimaryHeaders: 30px;
+    --SecondaryHeaders:27px;
+    --Paragraphs:15px;
+  //desktop
+  --DesktopPrimaryHeader: 40px;
+  --DesktopSecondayHeader : 34px:
+
+}

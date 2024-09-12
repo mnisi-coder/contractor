@@ -1,0 +1,40 @@
+//main Container for Text SPONSORS
+.Sponsorstext{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+//secondary container for that text
+.text{
+    text-align: center;
+    padding-top: 6%;
+}
+.text h1{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+  }
+ //Main container for IMG
+.SponsorsImg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+//secondary container for the IMAGE OF SPONSOR
+.img{
+justify-content: center;
+display: flex;
+}
+#logo{
+    width: 50%;
+}
+@media screen and (min-width: 1024px){
+  //decrease logo size
+  #logo{
+    width: 30%;
+}
+}

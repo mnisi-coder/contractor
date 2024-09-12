@@ -1,0 +1,80 @@
+//MAin container for ServicesHandP//
+.Container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+//secondary container for text SERVICES
+.ServicesHandP{
+    text-align: center;
+    padding-top: 6%;
+}
+.ServicesHandP h1{
+  font-family: var();
+  font-weight: 500;
+  font-style: normal;
+  font-size: var(--SecondaryHeaders);
+}
+//main container for the whole page on  service cards
+//we set it coloum on Mobile
+.ContainerServicesImagesFirstrow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+//container for the cards 
+.Containerservices1{
+  width:80%;
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  align-content: center;
+  justify-content: center;
+  flex-direction:row;
+  display: flex;
+  margin: 2%;
+}
+//images inside the cards
+.images{
+  width:50%;
+   
+}//container the ICon And TExt 
+.IconsText{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+//icons images
+.icons{
+ width: 30%;
+ padding-top: 3%;
+ border-radius:50%;
+}
+.IconsText h1{
+    font-size:20px;
+    color: var(--textSecondarycolor );
+    font-weight: 500;
+}
+.IconsText p{
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+    padding-top: 2%;
+}
+@media screen and (min-width: 1024px){
+  //main container for the whole page on  service cards
+//we set it Row on desktop
+  .ContainerServicesImagesFirstrow{
+     flex-direction:row;
+     width: 100%;
+     flex-wrap: wrap;
+  }
+  .Containerservices1{
+   flex-direction: row;
+   display: flex;
+  width: 20%;
+  }
+}

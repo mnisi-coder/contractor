@@ -1,0 +1,42 @@
+.containerAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.aboutext{
+   text-align: center;
+   width:90%;
+}
+.aboutext h1{
+   font-size: var(--SecondaryHeaders);
+   color: var( --textSecondarycolor );
+}
+.aboutext p{
+    font-size: var(--Paragraphs);
+    color: var(--textParagraphcolor);
+}
+.aboutimg{
+   justify-content: center;
+   display: flex;
+}
+#aboutimg{
+    width: 60%;
+}
+@media screen and (min-width: 1024px){
+    .containerAbout{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .aboutimg{
+        justify-content: center;
+        display: flex;
+        width: 30%;
+    
+     }
+     .aboutext {
+       width: 30%;
+     }
+
+    }
