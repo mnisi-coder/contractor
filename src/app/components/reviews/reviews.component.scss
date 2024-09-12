@@ -1,8 +1,10 @@
+//MAin Container for TEXT
 .containertext{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
+//secondary Container for REVIEWS and TESTIMONIAL text 
 .text{
     text-align: center;
     padding-top: 6%;
@@ -20,6 +22,7 @@
     font-size: 15px;
     color: grey;
 }
+//MAin COntainer for containerreview is COLOUMN on mobile
 .containerR{
     display: flex;
     flex-direction: column;
@@ -27,6 +30,7 @@
     align-items: center;
     justify-content: center;
 }
+//Secondary container for the REVIEWS CARDS
 .Containerreview{
   width:70%;
   text-align: center;
@@ -35,21 +39,24 @@
   border-radius: 15px;
   margin: 2%;
 }
+//Exclamation MArk class
 .mark{
     width:100%;
     padding-top: 5%;
     padding-left: 50%;
 }
+//Prole Icon Class
 .profileicon{
     width:100%;
     border-radius: 50%;
     padding-bottom: 15%;
     padding-right: 70%;
 }
-
+//Paragraph was too low on the box i had force it to go up,if its shit tell//
 .container p{
     margin-top: -12%;
 }
+//same reason for paragraph
 .stars{
     width: 100%;
     margin-top: -18%;
@@ -57,12 +64,14 @@
 
 /*desktop*/
 @media screen and (min-width: 1024px){
+    //MAin COntainer for containerreview is ROW on desktop
     .containerR{
      flex-direction: row;
      display: flex;
      justify-content: center;
      align-items: center;
     }
+    //reduced the size of the cards on desktop
     .Containerreview{
         width:20%;
 
