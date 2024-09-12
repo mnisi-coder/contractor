@@ -20,7 +20,7 @@
     font-size: 15px;
     color: grey;
 }
-.container{
+.containerR{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -37,7 +37,6 @@
 }
 .mark{
     width:100%;
-    border-radius: 50%;
     padding-top: 5%;
     padding-left: 50%;
 }
@@ -54,4 +53,18 @@
 .stars{
     width: 100%;
     margin-top: -18%;
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px){
+    .containerR{
+     flex-direction: row;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .Containerreview{
+        width:20%;
+
+}
 }

@@ -39,32 +39,24 @@
   width: 100%;
   background-color: var(--textSecondarycolor);
 }
-.navbar{
-width: 50%;
-}
 .navbarpc{
 display: none;
 }
 .navPC a{
 text-decoration: none;
-color:#555555;
+color:var(--textParagraphcolor);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
 padding: 2%;
 }
 .navPC a:hover{
-background-color:#AB8E5D;
-border: 1px solid transparent;
-color:var();
-padding: 3px 16px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
+color:var(--secondaryMain);
+transition: 0s;
 }
 .Menubarcontainer{
 width: 50%;
+
 }
 .Menubar{
  float: right;
@@ -77,30 +69,33 @@ width: 50%;
 }
 /*desktop*/
 @media screen and (min-width: 1024px){
-  .Menubar{
+  #logo{
+    width: 10%;
+  }
+  .Menubarcontainer{
     display: none;
 }
 
   .navbarpc{
-    width: 100%;
     display: flex;
 
   }
   .navPC{
-    padding-top:4%;
-    width: 60%;
+    padding-top:10%;
     text-align: center;
     justify-content: space-between;
-
+    width: 100%;
     
   }
   .profileimg{
     display: flex;
     flex-direction: row;
-
+  
+    
   }
   .profileimage{
     width: 20%;
+    padding-top: 14%;
 }
 }
 

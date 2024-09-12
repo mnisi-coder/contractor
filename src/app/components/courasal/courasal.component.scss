@@ -1,31 +1,46 @@
-.container{
-display: flex;
-flex-direction: row;
-text-align: center;
+.container3{
+  width: 100%;
+  background-image:url('/assets/couresal-images/couresal-img-Mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:40vh;
 }
 .couresal{
- background-image: url('/assets/couresal-images/couresal-img-Mobile.png'); /// make sure that you arrange pictires with folders as they are untidy in the assest folder if you are createing pictures for courasal put them in courasal folder under assests
- background-size:cover;
- background-repeat:no-repeat;
- width: 100%;
- height: 40vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 .couresal h1{
-    color: var(--textPrimarycolor) ;
-    padding-top: 5%;
-    font-size: var(--PrimaryHeaders);
-} 
+  color: white;
+  padding-top: 20%;
+}
 .button {
-  background-color:var(--main); /// not supposed to be here this color is supposed to be in styles.scss under root cause it's the main color we don't code color in a component 
-  border-radius:7px;
+  background-color: var(--main);
   border: none;
-  color: var(--textPrimarycolor);
-  padding: 15px 5px;
+  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  padding: 10px 24px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
 }
 
+
+@media screen and (min-width: 1024px){
+  .container3{
+    width: 100%;
+    background-image:url('/assets/couresal-images/couresal-img-Desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60vh;
+  }
+  .couresal h1{
+   font-size: var(--DesktopPrimaryHeader);
+   padding-top: 10%;
+  }
+  
+
+}

@@ -1,7 +1,8 @@
-.container{
+.containerAbout{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .aboutext{
@@ -24,11 +25,18 @@
     width: 60%;
 }
 @media screen and (min-width: 1024px){
-    .container{
+    .containerAbout{
         flex-direction: row;
         justify-content: center;
     }
-    .aboutext{
-        width:40%;
+    .aboutimg{
+        justify-content: center;
+        display: flex;
+        width: 30%;
+    
      }
-}
+     .aboutext {
+       width: 30%;
+     }
+
+    }
