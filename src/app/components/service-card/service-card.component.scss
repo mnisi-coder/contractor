@@ -19,7 +19,7 @@
 //we set it coloum on Mobile
 .ContainerServicesImagesFirstrow{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
 .Containerservices1{
   width:30%;
   text-align: center;
-
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   align-content: center;
   justify-content: center;
   flex-direction:column;
@@ -55,15 +55,9 @@
  border-radius:50%;
 }
 .IconsText h1{
-    font-size:20px;
+    font-size:13px;
     color: var(--textSecondarycolor );
     font-weight: 500;
-}
-.IconsText p{
-  display: none;
-    font-size: 14px;
-    color: rgb(160, 160, 160);
-    padding-top: 2%;
 }
 @media screen and (min-width: 1024px){
 
@@ -79,16 +73,18 @@
    flex-direction:column;
    display: flex;
    width: 20%;
+   box-shadow:none;
   }
   .images{
    display: flex;
     width:100%;
+    border-radius: 9px;
   }
   .icons{
    display: none;
    }
    .IconsText h1{
-    font-size:25px;
+    font-size:20px;
     color: var(--textParagraphcolor );
     font-weight: 400;
 }

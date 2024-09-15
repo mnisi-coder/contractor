@@ -12,8 +12,13 @@
   align-items: center;
 }
 .couresal h1{
-  color: white;
+  color: var(--textPrimarycolor );
   padding-top: 20%;
+  
+}
+span{
+ color:var( --main);
+ font-style: italic;
 }
 .button {
   background-color: var(--main);
@@ -22,10 +27,11 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  padding: 10px 24px;
+  padding: 10px 15px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 9px;
 }
 
 
