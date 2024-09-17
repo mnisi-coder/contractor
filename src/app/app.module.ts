@@ -24,6 +24,7 @@ import { RouterOutlet,RouterLink } from '@angular/router';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { WebstatsComponent } from './components/webstats/webstats.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { WebstatsComponent } from './components/webstats/webstats.component';
     ProjectsComponent,
     NotFoundComponent,
     LogoComponent,
-    WebstatsComponent
+    WebstatsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
