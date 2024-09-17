@@ -91,3 +91,9 @@ Service Cards : https://za.pinterest.com/pin/618752436327381315/
 # 1 
 Error : Insufficient permissions in vscode
 solution  :  sudo chmod -R 777 <project name>
+
+
+
+## Jali notes :
+
+local storage : https://jscrambler.com/blog/working-with-angular-local-storage
