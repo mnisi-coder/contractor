@@ -129,7 +129,7 @@ ul {
 .subscribe-form {
   position: relative;
   overflow: hidden;
-  width: 60%;
+  width: 100%;
 }
 .subscribe-form input {
   width: 100%;
@@ -188,12 +188,15 @@ ul {
 }
 .subscribe-form{
 padding-left: 0%;
-width: 60%;
+width: 80%;
 }
 .footer-widget-heading{
   padding-left: 16%;
 }
 .copyright-area{
   margin-top: 2%;
+}
+.footer-text{
+  width:80%;
 }
 }
