@@ -3,6 +3,7 @@
   display: flex;
  justify-content: center;
  text-align:center;
+ margin-top: 4%;
 }
 
 .text{
@@ -27,7 +28,6 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
 }
@@ -42,7 +42,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: var(--textSecondarycolor)
+  background-color: var(--textSecondarycolor);
+  color: var(--secondaryMain);
+
 }
 //Form Container(Inputs)
 .containerI{
@@ -61,7 +63,10 @@ padding-top: 7%;
   
 .ContactImg{
   display: flex;
-  width: 100%;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6%;
 }
 //we display the image on desktop
 .imageContact{
@@ -73,6 +78,7 @@ padding-top: 7%;
   width: 50%;
   display: flex;
   flex-direction: row;
+
 }
 //container for inputs
 .containerI{

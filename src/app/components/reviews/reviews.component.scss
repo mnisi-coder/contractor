@@ -15,12 +15,18 @@
     font-style: normal;
     font-size: 28px;
 }
+//other reviews are not visible as we display and MAKE OTHERS SLIDE
+#REVIEW3,
+#REVIEW2{
+    display: none;
+}
 .text p{
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 15px;
     color: grey;
+    padding-top: 1%;
 }
 //MAin COntainer for containerreview is COLOUMN on mobile
 .containerR{
@@ -29,6 +35,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-top: 2%;
 }
 //Secondary container for the REVIEWS CARDS
 .Containerreview{
@@ -71,6 +78,9 @@
     //reduced the size of the cards on desktop
     .Containerreview{
         width:20%;
-
+}
+#REVIEW3,
+#REVIEW2{
+  display: block;
 }
 }

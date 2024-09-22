@@ -76,6 +76,14 @@ ul {
 .google-bg{
   background: #DD4B39;
 }
+.footer-widget-heading-links{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  padding-top: 5%;
+}
 .footer-widget-heading h3 {
   color: #fff;
   font-size: 20px;
@@ -86,6 +94,15 @@ ul {
 }
 .logo{
   width: 10%;
+}
+.footer-widget-heading-links::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background:var(--main)
 }
 .footer-widget-heading h3::before {
   content: "";
@@ -112,6 +129,7 @@ ul {
 .subscribe-form {
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 .subscribe-form input {
   width: 100%;
@@ -139,6 +157,7 @@ ul {
   text-align: center;
   display: flex;
   justify-content: center;
+  margin-top: 2%;
 }
 .center{
   display: flex;
@@ -161,12 +180,23 @@ ul {
   font-size: 14px;
   color: #878787;
 }
-.quicklinks{
 
-}
 @media screen and (min-width: 1024px){
 .row{
     flex-direction: row;
     display: flex;
+}
+.subscribe-form{
+padding-left: 0%;
+width: 80%;
+}
+.footer-widget-heading{
+  padding-left: 16%;
+}
+.copyright-area{
+  margin-top: 2%;
+}
+.footer-text{
+  width:80%;
 }
 }
