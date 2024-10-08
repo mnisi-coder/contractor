@@ -1,0 +1,132 @@
+.Results{
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+padding-top: 1%;
+}
+.Resultstext{
+    display: flex;
+    flex-direction: row;
+}
+.Resultstext h1{
+    padding-top: 2%;
+    padding-left: 4%;
+    font-size: 12px;
+}
+.Resultstext h1 span{
+    color:rgb(165, 165, 165);
+}
+.Resultstext h2{
+  padding-left: 45%;
+  padding-top: 2%;
+  color:rgb(165, 165, 165);
+  font-size: 12px;
+}
+
+#sortby-icon{
+    width:10%;
+    padding-top: 2%;
+}
+
+
+.ProfileContainer{
+ display:flex;
+ flex-direction:row;
+ width: 80%;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ align-items: center;
+ border-radius: 9px;
+ margin-top: 6%;
+
+}
+.Profile{
+    width: 40%;
+
+}
+#profile-icon{
+ width: 100%;
+ padding-left: 2%;
+
+}
+.ProfileInfo{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-left: 3%;
+ 
+}
+.ProfileInfo h1{
+    font-size: 12px;
+    color: var(--textParagraphcolor);
+    padding-top: 3%;
+}
+
+.ProfileInfo span{
+    color: var(--textSecondarycolor);
+    font-weight: 500;
+
+}
+#Star-Rating{
+    width: 10%;
+}
+.center {
+  margin-top: 10%;
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color:var(--main);
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;
+}
+
+@media screen and (min-width: 1024px){
+  .Resultstext h1{
+    font-size: 15px;
+   
+  }
+  .Resultstext h2{
+    font-size: 15px;
+padding-left: 65%;
+  }
+  #sortby-icon{
+   width: 3%;
+  }
+  .Profile{
+  width: 30%;
+  }
+  .ProfileContainer{
+    width: 22%;
+    flex-direction: row;
+    margin: 0.90%;
+  }
+  
+  .Results{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .pagination a {
+    padding: 8px 25px;
+  }
+}

@@ -1,0 +1,64 @@
+.SearchBarContainer{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+    background-image:url('/assets/searchbar-bg/searchbar-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.MainText{
+    padding-bottom: 2%;
+}
+.MainText h1{
+    font-size:20px;
+    color: var(--textPrimarycolor);
+    font-weight: 1000;
+}
+.MainText h1 span{
+    color: var(--main);
+}
+.Text{
+   justify-content: center;
+    display: flex;
+}
+#places{
+    background-color: white;
+    color: grey;
+    font-size: 15px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+ 
+}
+.search{
+    width: 50%;
+    padding-left: 2%;
+}
+.SearchBTN{
+    background-color:var(--main);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border: 5px solid var(--textPrimarycolor );
+  }
+  @media screen and (min-width: 1024px){
+    .SearchBarContainer{
+        height: 60vh;
+    }
+  
+    .search{
+         width: 40%;
+    }
+    .MainText h1{
+        font-size:40px;
+    }
+
+  }

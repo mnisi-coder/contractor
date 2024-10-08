@@ -1,0 +1,37 @@
+<div class="Results">
+    <div class="Resultstext">
+      <h1>20 of 1275 <span>Results</span></h1>
+        <h2>Sort by</h2>
+        <img src="./assets/services-profile-bg/sortby-icon.png" alt="" id="sortby-icon">
+    </div>
+    
+</div>  
+<div class="Results">
+<ng-container *ngFor="let contractor of contractors">
+<div class="ProfileContainer">
+    <div class="Profile">
+        <img src="./assets/profile-icon/profile-icon.png" alt="" id="profile-icon">
+        </div>
+    <div class="ProfileInfo">
+        <h1>Name : <span>{{contractor.name}}</span></h1>
+        <h1>Service : <span>{{contractor.Service}}</span></h1>
+        <h1>Location : <span>{{contractor.Location}} , {{contractor.City}}</span></h1>
+        <h1>Ratings: </h1>
+    </div>
+</div>
+
+</ng-container>
+</div>
+<div class="center">
+    <div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#" class="active">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">&raquo;</a>
+    </div>
+  </div>
+

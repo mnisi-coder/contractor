@@ -23,6 +23,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { RouterOutlet,RouterLink } from '@angular/router';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ServicesProfilesComponent } from './components/services-profiles/services-profiles.component';
+import { ContractorProflileComponent } from './contractor-proflile/contractor-proflile.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { FooterComponent } from './components/footer/footer.component';
     AddreviewsComponent,
     ProjectsComponent,
     NotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    ServicesProfilesComponent,
+    ContractorProflileComponent,
   ],
   imports: [
     BrowserModule,
