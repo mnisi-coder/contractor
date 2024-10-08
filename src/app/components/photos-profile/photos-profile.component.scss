@@ -1,0 +1,22 @@
+.Img2{
+    display: none;
+}
+.Img3{
+    display: none;
+}
+
+.Containerwords{
+    width: 100%;
+}
+.words{
+    display: flex;
+    flex-direction: row;
+    background-color:var(--secondaryMain);
+    width: 100%;
+}
+.fa-images{
+    padding-left: 10%;
+}
+.words h1{
+    padding-left: 2%;
+}
