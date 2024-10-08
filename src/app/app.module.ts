@@ -26,6 +26,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ServicesProfilesComponent } from './components/services-profiles/services-profiles.component';
 import { ContractorProflileComponent } from './contractor-proflile/contractor-proflile.component';
 import { BackToSearchComponent } from './components/back-to-search/back-to-search.component';
+import { PhotosProfileComponent } from './components/photos-profile/photos-profile.component';
  
 
 @NgModule({
@@ -52,7 +53,8 @@ import { BackToSearchComponent } from './components/back-to-search/back-to-searc
     ServicesProfilesComponent,
     LogoComponent,
     ContractorProflileComponent,
-    BackToSearchComponent
+    BackToSearchComponent,
+    PhotosProfileComponent
   ],
   imports: [
     BrowserModule,
