@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/services/services.component';
-import { ContractorComponent } from './pages/contractor/contractor.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ProfileComponent } from './pages/profile/profile.component';
@@ -22,16 +21,18 @@ import { AddreviewsComponent } from './components/addreviews/addreviews.componen
 import { ProjectsComponent } from './components/projects/projects.component';
 import { RouterOutlet,RouterLink } from '@angular/router';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { LogoComponent } from './components/logo/logo.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ServicesProfilesComponent } from './components/services-profiles/services-profiles.component';
 import { ContractorProflileComponent } from './contractor-proflile/contractor-proflile.component';
+import { BackToSearchComponent } from './components/back-to-search/back-to-search.component';
+ 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ServicesComponent,
-    ContractorComponent,
     RegisterComponent,
     LoginComponent,
     ProfileComponent,
@@ -49,7 +50,9 @@ import { ContractorProflileComponent } from './contractor-proflile/contractor-pr
     NotFoundComponent,
     FooterComponent,
     ServicesProfilesComponent,
+    LogoComponent,
     ContractorProflileComponent,
+    BackToSearchComponent
   ],
   imports: [
     BrowserModule,

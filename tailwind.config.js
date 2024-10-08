@@ -4,6 +4,46 @@ module.exports = {
     "./src/**/*.{html,ts}"
   ],
   theme: {
+    colors: {
+      mainColor : '#e0ac1c',
+      secondaryColor : '#edd592',
+      textColorNF : '#edd592',  //text color for not found page 
+      textButton : 'white',
+      textButtonHV : 'black'
+    },
+    // screens: {
+    //   'tablet': '640px',
+    //   // => @media (min-width: 640px) { ... }
+
+    //   'laptop': '1024px',
+    //   // => @media (min-width: 1024px) { ... }
+
+    //   'desktop': '1280px',
+    //   // => @media (min-width: 1280px) { ... }
+      
+    //   'phone': {'max': '767px'},
+    //   // => @media (max-width: 767px) { ... }
+
+    //   'sm': {'max': '639px'},
+    //   // => @media (max-width: 639px) { ... }
+
+    // },
+    screens: {
+      'sm': {'max': '639px'},
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {},
   },
   plugins: [

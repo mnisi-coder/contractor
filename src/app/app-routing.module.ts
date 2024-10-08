@@ -6,7 +6,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ServicesComponent } from './pages/services/services.component';
-import { ContractorComponent } from './pages/contractor/contractor.component';
+
 
 const routes: Routes = [
   { path: '',title:"home Page", component: HomeComponent },
@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'Profile',title:"Profile Page", component: ProfileComponent },
   { path: 'Services',title:"Services Page", component: ServicesComponent },
   { path: '**',title:"Not Found Page", component: NotFoundComponent , pathMatch: 'full' },
-  { path: 'Contractor',title:"Contractor Page", component: ContractorComponent}
+
 
 ];
 
