@@ -1,8 +1,43 @@
+.ContainerHeader{
+    width: 90%;
+    margin-top:10%;
+    margin-left:5%
+}
+.Header{
+    display: flex;
+    flex-direction:column;
+}
+.Header h1{
+    font-size: 20px;
+    color:var(--main);
+    font-weight: 500;
+    padding-left: 4%;
+}
+.Header p{
+    padding-left: 4%;
+    font-size: 12px;
+    color: var(--textParagraphcolor);
+}
+.ContainerPhotos{
+margin-top: 2%;
+width: 90%;
+margin-left:5%;
+border-top-left-radius: 9px;
+border-top-right-radius: 9px;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.Img1{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    
+}
 .Img2{
     display: none;
+ 
 }
 .Img3{
     display: none;
+   
 }
 
 .Containerwords{
@@ -11,12 +46,73 @@
 .words{
     display: flex;
     flex-direction: row;
-    background-color:var(--secondaryMain);
-    width: 100%;
+    background-color:var(--textSecondarycolor);
+    width: 90%;
+    margin-left:5%;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding-top: 1%;
 }
 .fa-images{
     padding-left: 10%;
+    color:lightgrey;
 }
 .words h1{
     padding-left: 2%;
+    color:lightgrey;
+}
+.words h2{
+    margin-left: 2%;
+    text-align: center;
+    width: 7%;
+    background-color:lightgrey;
+    border-radius: 50%;
+    color: var(--textSecondarycolor);
+}
+@media screen and (min-width: 1024px){
+    .ContainerHeader{
+        margin-top:5%;
+
+    }
+    .Header h1{
+     font-size: 30px;
+    }
+    .ContainerPhotos{
+        margin-top: 2%;
+}
+.ContainerPhotos{
+    display: flex;
+    flex-direction: row;
+}
+.image1{ 
+
+    width: 100%;
+}
+.image2{ 
+        width: 50%;
+  
+        
+}
+
+.Img1{
+    width:100%;
+    border-top-right-radius: 0px; 
+    
+}
+.Img2{
+    display: flex;
+    width: 100%;
+    border-top-right-radius: 9px;
+    width: 99%;
+    margin: 0.30%;
+}
+.Img3{
+    display: flex;
+    width: 99%;
+    margin: 0.70%;
+
+}
+
+
+
 }

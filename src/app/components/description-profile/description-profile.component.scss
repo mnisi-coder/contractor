@@ -1,0 +1,102 @@
+.DescriptionLogo{
+    width:100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.profile-icon{
+    width: 40%;
+    height: 20vh;
+    padding-top:5%;
+}
+.Description{
+    padding-top: 5%;
+}
+.Description h1{
+    font-size: 20px;
+    font-weight: 600;
+    color:var(--main)
+}
+.Description h3{
+    font-weight: 300;
+     color: rgb(0, 0, 0); //will change soon
+     padding-top: 3%;
+}
+.Boxes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    flex-wrap:wrap;
+}
+.Boxes h1{
+    border: 1px solid var(--main);
+    color: var( --secondaryMain);
+    padding: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2%;
+    cursor: pointer;
+}
+
+
+.PargraphContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.Paragraph {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Paragraph  p{
+    font-size: 12px;
+    padding-left:2%;
+}
+.ReviewContainer{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    .DescriptionLogo{
+        width: 100%;
+    
+    }
+    .profile-icon{
+         width: 40%;
+         height: 50vh;
+         padding-top:0%;
+    }
+    .ReviewContainer{
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 15%;
+       padding-bottom: 3%;
+    }
+    .ReviewContainer h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .Review{
+        border: 1px;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        height: 13vh;
+        width: 80%;
+        margin-top: 5%;
+    }
+    .Review p{
+        padding-top: 3%;
+        padding-left: 2%;
+        font-size: 10px;
+        color: var(--textParagraphcolor);
+    }
+}

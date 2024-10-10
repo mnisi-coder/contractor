@@ -24,9 +24,11 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ServicesProfilesComponent } from './components/services-profiles/services-profiles.component';
-import { ContractorProflileComponent } from './contractor-proflile/contractor-proflile.component';
 import { BackToSearchComponent } from './components/back-to-search/back-to-search.component';
 import { PhotosProfileComponent } from './components/photos-profile/photos-profile.component';
+import { DescriptionProfileComponent } from './components/description-profile/description-profile.component';
+import { ContactBusinessComponent } from './components/contact-business/contact-business.component';
+import { StickyFooterComponent } from './components/sticky-footer/sticky-footer.component';
  
 
 @NgModule({
@@ -52,9 +54,11 @@ import { PhotosProfileComponent } from './components/photos-profile/photos-profi
     FooterComponent,
     ServicesProfilesComponent,
     LogoComponent,
-    ContractorProflileComponent,
     BackToSearchComponent,
-    PhotosProfileComponent
+    PhotosProfileComponent,
+    DescriptionProfileComponent,
+    ContactBusinessComponent,
+    StickyFooterComponent
   ],
   imports: [
     BrowserModule,
