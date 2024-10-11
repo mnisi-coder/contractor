@@ -7,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './nav.component.scss'
 })
 export class NavComponent {
+  
+
+  nav:Boolean = false;
+
+  openClose()
+  {
+
+  this.nav =! this.nav
+      
+  console.log(this.nav);
+      
+  }
 
   }
