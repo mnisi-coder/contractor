@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: '',title:"home Page", component: HomeComponent },
   { path: 'Business',title:"Business Page", component: BusinessComponent },
   { path: 'Register',title:"Register Page", component: RegisterComponent },
-  { path: 'Profile',title:"Profile Page", component: ProfileComponent },
+  { path: 'profile',title:"Profile Page", component: ProfileComponent },
   { path: 'Services',title:"Services Page", component: ProfileComponent },
   { path: '**',title:"Not Found Page", component: NotFoundComponent , pathMatch: 'full' },
 
