@@ -8,8 +8,9 @@ import { Component } from '@angular/core';
 })
 export class NavComponent {
   
-
+  // variable
   nav:Boolean = false;
+  login:Boolean = false;
 
   openClose()
   {

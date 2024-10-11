@@ -9,7 +9,8 @@ module.exports = {
       secondaryColor : '#edd592',
       textColorNF : '#edd592',  //text color for not found page 
       textButton : 'white',
-      textButtonHV : 'black'
+      textButtonHV : 'black',
+      textSecond : "#000000"
     },
     // screens: {
     //   'tablet': '640px',
