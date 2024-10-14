@@ -10,7 +10,7 @@ export class NavComponent {
   
   // variable
   nav:Boolean = false;
-  login:Boolean = false;
+  login:Boolean = true;
 
   openClose()
   {
