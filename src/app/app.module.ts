@@ -30,6 +30,7 @@ import { DescriptionProfileComponent } from './components/description-profile/de
 import { ContactBusinessComponent } from './components/contact-business/contact-business.component';
 import { StickyFooterComponent } from './components/sticky-footer/sticky-footer.component';
 import { LoginRegisterComponent } from './components/login-register/login-register.component';
+import { TestemonyComponent } from './components/testemony/testemony.component';
  
 
 @NgModule({
@@ -60,7 +61,8 @@ import { LoginRegisterComponent } from './components/login-register/login-regist
     DescriptionProfileComponent,
     ContactBusinessComponent,
     StickyFooterComponent,
-    LoginRegisterComponent
+    LoginRegisterComponent,
+    TestemonyComponent
   ],
   imports: [
     BrowserModule,
