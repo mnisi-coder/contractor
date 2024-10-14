@@ -6,17 +6,17 @@ import { RegisterComponent } from './pages/register/register.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ServicesComponent } from './pages/services/services.component';
+import { LoginComponent } from './pages/login/login.component';
 
 
 const routes: Routes = [
   { path: '',title:"home Page", component: HomeComponent },
   { path: 'Business',title:"Business Page", component: BusinessComponent },
   { path: 'Register',title:"Register Page", component: RegisterComponent },
+  { path: 'Login',title:"Login Page", component: LoginComponent },
   { path: 'Profile',title:"Profile Page", component: ProfileComponent },
   { path: 'Services',title:"Services Page", component: ServicesComponent },
   { path: '**',title:"Not Found Page", component: NotFoundComponent , pathMatch: 'full' },
-
-
 ];
 
 @NgModule({

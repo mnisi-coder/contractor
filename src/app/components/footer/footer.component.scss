@@ -5,6 +5,7 @@ ul {
 .footer-section {
   background: #000000;
   position: relative;
+  display: none;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
@@ -198,5 +199,21 @@ width: 80%;
 }
 .footer-text{
   width:80%;
+}
+.footer-section {
+  display: flex;
+}
+.footer-text p {
+  padding-left: 5%;
+}
+.footer-social-icon span{
+  padding-left: 4%;
+}
+.facebook-bg{
+  margin-left: 4%;
+}
+.logo{
+  padding-left: 3%;
+  width: 15%;
 }
 }

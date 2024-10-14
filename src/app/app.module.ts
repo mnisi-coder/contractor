@@ -29,6 +29,7 @@ import { PhotosProfileComponent } from './components/photos-profile/photos-profi
 import { DescriptionProfileComponent } from './components/description-profile/description-profile.component';
 import { ContactBusinessComponent } from './components/contact-business/contact-business.component';
 import { StickyFooterComponent } from './components/sticky-footer/sticky-footer.component';
+import { LoginRegisterComponent } from './components/login-register/login-register.component';
  
 
 @NgModule({
@@ -58,7 +59,8 @@ import { StickyFooterComponent } from './components/sticky-footer/sticky-footer.
     PhotosProfileComponent,
     DescriptionProfileComponent,
     ContactBusinessComponent,
-    StickyFooterComponent
+    StickyFooterComponent,
+    LoginRegisterComponent
   ],
   imports: [
     BrowserModule,
