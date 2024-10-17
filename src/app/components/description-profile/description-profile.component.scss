@@ -1,82 +1,93 @@
-.DescriptionLogo{
-    width:100%;
-    flex-direction: column;
-    display: flex;
-}
-
-.logo{
-    display: flex;
-    flex-direction: row;
-}
-.profile-icon{
-    width: 40%;
-    height: 20vh;
-    padding-top:5%;
-}
 .Description{
-    padding-top: 5%;
-}
-.Description h1{
-    font-size: 20px;
-    font-weight: 600;
-    color:var(--main);
-    padding-left: 1%;
-}
-.Description h3{
-    font-weight: 300;
-     color: rgb(0, 0, 0); //will change soon
-     padding-left: 1%;
-}
-.Description i{
-    padding-left: 1%;
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     margin-top: 5%;
     
 }
-.Boxes{
+
+#logoDescription{
+    width: 40%;
+}
+.ProfileContainer{
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
 }
-.Boxes h1{
-    border: 1px solid var(--main);
-    color: var( --secondaryMain);
-    padding: 4px 2px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
+.ProfileDetails h1{
+    font-size: 25px;
+    color: var(--main);
+    font-weight: 900;
+}
+.ProfileDetails p{
+    color: var( --textParagraphcolor);
+    padding-top: 1%;
     margin: 1%;
-    cursor: pointer;
+    font-size: 10px;
 }
-
-
-.PargraphContainer{
-    width: 100%;
+.ButtonsContainer{
     display: flex;
     flex-direction: row;
+    padding-top: 1%;
 }
-.Paragraph {
+#btn4{
+    display:none;
+}
+#btn5{
+    display:none;
+}
+.btn{
+  color: var(--secondaryMain);
+  border-radius: 4px;
+  padding: 0px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 3px 3px;
+  cursor: pointer;
+
+  border: 0.60px solid var(--main);
+  background-color: white;
+  
+}
+.CompanyDescription{
     display: flex;
-    flex-wrap: wrap;
-    padding-left: 1%;
+    flex-direction: row;
+
 }
-.Paragraph  p{
+.Paragraph p{
+    color: var(--textParagraphcolor);
     font-size: 12px;
 }
+.Paragraph p span{
+    color: var(--textParagraphcolor);
+    font-weight: bold;
+}
 @media screen and (min-width: 1024px){
-    .DescriptionLogo{
-        width: 100%;
-    
-    
+    .Description{
+    width: 70%;
+    border-radius:9px;
+    padding-left: 5%;
     }
-    .Description h1 span{
-        font-size: 25px;
+    #logoDescription{
+    width: 30%;
+    }
+    .ProfileDetails h1{
+        font-size: 45px;
+        color: var(--main);
         font-weight: 900;
     }
-    .profile-icon{
-         width: 40%;
-         height: 50vh;
-         padding-top:0%;
+    .Buttons{
+       flex-direction: row;
+       display: flex;
     }
-
+    #btn4{
+        display:flex;
+    }
+    #btn5{
+        display:flex;
+    }
     
+ 
 }
+

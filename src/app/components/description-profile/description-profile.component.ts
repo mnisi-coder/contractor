@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './description-profile.component.scss'
 })
 export class DescriptionProfileComponent {
+[x: string]: any;
 
 }
