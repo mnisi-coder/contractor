@@ -1,0 +1,114 @@
+.ContainerTestimonialsHeader{
+  flex-direction:column;
+  display: flex;
+}
+.Testimonial{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  padding-top: 7%;
+}
+.Testimonial h1{
+  font-size: 25px;
+  color: var(--main);
+  font-weight: 900;
+}
+.AverageRating{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+.AverageRating h1{
+  font-size: 20px;
+  color: var(--textParagraphcolor);
+}
+.Stars{
+  display: flex;
+  padding-top: 3%;
+  flex-direction:row;
+  width: 100%;
+ justify-content: center;
+
+}
+.Stars h1{
+  font-size: 23px;
+}
+.fa{
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+.checked {
+    color: orange;
+  }
+.Stars{
+    display: flex;
+    flex-direction: row;
+  }
+  .Graph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 6%;
+    width: 80%;
+    padding-top: 10%;
+  }
+  /* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+  width:60%;
+  height: 18px;
+  background-color: var(--main);}
+.bar-4 {
+  width:30%;
+  height: 18px;
+  background-color: var(--main);}
+.bar-3 {
+  width: 10%;
+  height: 18px;
+  background-color: var(--main);}
+.bar-2 {
+  width: 4%;
+  height: 18px;
+  background-color: var(--main);}
+.bar-1 {
+  width: 15%; 
+  height: 18px;
+  background-color: var(--main);}

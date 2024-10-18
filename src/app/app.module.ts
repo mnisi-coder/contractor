@@ -31,6 +31,8 @@ import { ContactBusinessComponent } from './components/contact-business/contact-
 import { StickyFooterComponent } from './components/sticky-footer/sticky-footer.component';
 import { LoginRegisterComponent } from './components/login-register/login-register.component';
 import { TestemonyComponent } from './components/testemony/testemony.component';
+import { TestimonialsBusinessComponent } from './components/testimonials-business/testimonials-business.component';
+
  
 
 @NgModule({
@@ -62,7 +64,8 @@ import { TestemonyComponent } from './components/testemony/testemony.component';
     ContactBusinessComponent,
     StickyFooterComponent,
     LoginRegisterComponent,
-    TestemonyComponent
+    TestemonyComponent,
+    TestimonialsBusinessComponent,
   ],
   imports: [
     BrowserModule,
