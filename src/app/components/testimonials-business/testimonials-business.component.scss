@@ -95,20 +95,43 @@
 .bar-5 {
   width:60%;
   height: 18px;
-  background-color: var(--main);}
+  background-color: var(--secondaryMain);
+}
 .bar-4 {
   width:30%;
   height: 18px;
-  background-color: var(--main);}
+  background-color: var(--secondaryMain);
+}
 .bar-3 {
-  width: 10%;
+  width:20%;
   height: 18px;
-  background-color: var(--main);}
+  background-color: var(--secondaryMain);
+}
 .bar-2 {
-  width: 4%;
+  width: 15%;
   height: 18px;
-  background-color: var(--main);}
+  background-color: var(--secondaryMain);
+}
 .bar-1 {
   width: 15%; 
   height: 18px;
-  background-color: var(--main);}
+  background-color: var(--secondaryMain);
+}
+
+@media screen and (min-width: 1024px){
+.ContainerPEople{
+  width: 50%;
+  justify-content: center;
+  display: flex;
+}
+.Graph{
+  width: 100%;
+  flex-direction: row;
+  display:flex;
+  margin-left: 0%;
+  padding-top: 4%;
+}
+.row{
+  width: 40%;
+}
+}

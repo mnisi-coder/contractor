@@ -30,7 +30,6 @@ import { DescriptionProfileComponent } from './components/description-profile/de
 import { ContactBusinessComponent } from './components/contact-business/contact-business.component';
 import { StickyFooterComponent } from './components/sticky-footer/sticky-footer.component';
 import { LoginRegisterComponent } from './components/login-register/login-register.component';
-import { TestemonyComponent } from './components/testemony/testemony.component';
 import { TestimonialsBusinessComponent } from './components/testimonials-business/testimonials-business.component';
 
  
@@ -64,7 +63,6 @@ import { TestimonialsBusinessComponent } from './components/testimonials-busines
     ContactBusinessComponent,
     StickyFooterComponent,
     LoginRegisterComponent,
-    TestemonyComponent,
     TestimonialsBusinessComponent,
   ],
   imports: [
