@@ -119,11 +119,6 @@
 }
 
 @media screen and (min-width: 1024px){
-.ContainerPEople{
-  width: 50%;
-  justify-content: center;
-  display: flex;
-}
 .Graph{
   width: 100%;
   flex-direction: row;
@@ -131,7 +126,20 @@
   margin-left: 0%;
   padding-top: 4%;
 }
+.Testimonial{
+  padding-top: 2%;
+}
+.Testimonial h1{
+padding-left: 5%;
+font-size: 40px;
+}
+.AverageRating{
+  padding-top: 1%;
+}
+  .Stars{
+    padding-top: 0.50%;
+}
 .row{
-  width: 40%;
+  width: 60%;
 }
 }
