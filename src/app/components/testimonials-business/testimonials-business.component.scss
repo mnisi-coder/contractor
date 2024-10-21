@@ -124,22 +124,32 @@
   flex-direction: row;
   display:flex;
   margin-left: 0%;
-  padding-top: 4%;
+  padding-top: 1%;
 }
 .Testimonial{
   padding-top: 2%;
+
 }
 .Testimonial h1{
 padding-left: 5%;
 font-size: 40px;
 }
 .AverageRating{
-  padding-top: 1%;
+  padding-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-left: 20%;
 }
-  .Stars{
+.Stars{
     padding-top: 0.50%;
+    width: 15%;
+}
+.Stars h1{
+  font-size: 15px;
 }
 .row{
   width: 60%;
 }
+
 }
