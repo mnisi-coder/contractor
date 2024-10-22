@@ -8,6 +8,7 @@
   width: 100%;
   justify-content: center;
   padding-top: 7%;
+  background-color: green;
 }
 .Testimonial h1{
   font-size: 25px;
@@ -19,7 +20,8 @@
   flex-direction: column;
   width: 100%;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 3%;
+  background-color: yellow;
 }
 .AverageRating h1{
   font-size: 20px;
@@ -34,7 +36,8 @@
 
 }
 .Stars h1{
-  font-size: 23px;
+  font-size: 17px;
+
 }
 .fa{
   padding-left: 2%;
@@ -52,10 +55,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    margin-left: 6%;
+    margin-left: 8%;
     width: 80%;
-    padding-top: 10%;
+    padding-top: 6%;
+    background-color:rgb(138, 101, 138);
   }
   /* Three column layout */
 .side {
@@ -119,12 +122,28 @@
 }
 
 @media screen and (min-width: 1024px){
+  .Testimonial{
+    justify-content:left;
+    padding-top: 7%
+  }
+  .AverageRating{
+    padding-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .AverageRating h1{
+    font-size: 20px;
+    color: var(--textParagraphcolor);
+    padding-left: 20%;
+  }
 .Graph{
   width: 100%;
   flex-direction: row;
   display:flex;
-  justify-content: left;
+  justify-content:center;
   padding-top: 1%;
+  margin-left: 0%;
 }
 .Testimonial{
   padding-top: 2%;
@@ -134,13 +153,7 @@
 padding-left: 5%;
 font-size: 40px;
 }
-.AverageRating{
-  padding-top: 3%;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  padding-left: 5%;
-}
+
 .Stars{
     padding-top: 0.50%;
     width: 15%;
