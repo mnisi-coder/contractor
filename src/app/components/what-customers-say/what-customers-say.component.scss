@@ -4,7 +4,9 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 10%;
+
 }
+
 .head h1{
     font-size: 25px;
     font-weight: 900;
@@ -24,6 +26,7 @@
 }
 .CustomersIconName{
     padding-top: 4%;
+
 }
 .CustomersIconName h1{
     font-size: 13px;
@@ -39,6 +42,7 @@
 }
 .Thereview{
     padding-top: 3%;
+
 }
 .Thereview p{
     padding-left: 1%;
@@ -49,22 +53,31 @@
     padding-left: 1%;
   }
   @media screen and (min-width: 1024px){
+    .ContainerHEad{
+        justify-content: left;
+        padding-left:5%;
+        padding-top: 2%;
+    }
+    .head h1{
+        font-size: 40px;
+        font-weight: 900;
+        color: var(--main);
+    }
     .ContainerMain{
         margin-top: 2%;
-        margin-left: 5%;
         display:flex;
+        justify-content: center;
         flex-direction: column;
+        margin-left: 20%;
         width: 60%;
     }
+    .CustomersIconName{
+        padding-top: 1%;
+    }
+
     .Thereview{
         padding-top: 1%;
         height: 20vh;
     }
-    .ContainerHEad{
-        padding-top: 5%;
-    }
-    .ContainerHEad{
-        justify-content: left;
-        padding-left:5%
-    }
+  
   }
