@@ -37,8 +37,9 @@
     display:none;
 }
 .btn{
-    border:1px solid var(--main); 
-    color:var(--main);
+    border:2px solid var(--textPrimarycolor); 
+    background-color: var(--secondaryMain);
+    color:var(--textPrimarycolor);
     text-align: center;
     text-decoration: none;
     display: inline-block;
