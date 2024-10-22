@@ -123,7 +123,7 @@
   width: 100%;
   flex-direction: row;
   display:flex;
-  margin-left: 0%;
+  justify-content: left;
   padding-top: 1%;
 }
 .Testimonial{
@@ -139,7 +139,7 @@ font-size: 40px;
   display: flex;
   flex-direction: row;
   justify-content: left;
-  padding-left: 20%;
+  padding-left: 5%;
 }
 .Stars{
     padding-top: 0.50%;
@@ -151,5 +151,9 @@ font-size: 40px;
 .row{
   width: 60%;
 }
-
+.ContainerBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
 }
