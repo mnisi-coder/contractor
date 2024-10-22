@@ -16,6 +16,7 @@
     //web colors below
     --main: #e0ac1c ;
     --secondaryMain: #edd592;
+    --bodybackground: #dbd9d38c;
     --textPrimarycolor :#ffffff ;
     --textSecondarycolor : #000000 ;
     --textParagraphcolor:rgb(83, 83, 83);
@@ -38,4 +39,7 @@
   --DesktopPrimaryHeader: 40px;
   --DesktopSecondayHeader : 34px:
 
+}
+body{
+  background-color:var(--bodybackground) ;
 }
