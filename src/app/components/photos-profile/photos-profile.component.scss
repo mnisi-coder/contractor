@@ -71,19 +71,19 @@ box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2
 }
 @media screen and (min-width: 1024px){
     .ContainerHeader{
-        margin-top:5%;
+        margin-top:3%;
 
     }
     .Header h1{
-     font-size: 30px;
-
+        font-size: 40px;
     }
-    .ContainerPhotos{
-        margin-top: 2%;
-}
-.ContainerPhotos{
+    .Header p{
+        font-size: 20px;
+    }
+   .ContainerPhotos{
     display: flex;
     flex-direction: row;
+    margin-top: 1%;
 }
 .image1{ 
 
