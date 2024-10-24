@@ -26,3 +26,10 @@
     color: var(--textParagraphcolor);
   }
   
+  @media screen and (min-width: 1024px){
+    .BackToSearch h1{
+      padding-left: 0.20%;
+      color: var(--textParagraphcolor);
+    }
+
+  }
