@@ -5,8 +5,8 @@
 .Testimonial {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  justify-content: center;
+  width: 90%;
+  margin-left:5%;
   padding-top: 7%;
 }
 .Testimonial h1 {
@@ -17,24 +17,25 @@
 }
 .AverageRating {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
-  padding-top: 3%;
+  flex-direction: row;
+  width: 70%;
+  margin-left:5%;
+  padding-top: 1%;
 }
 .AverageRating h1 {
-  font-size: 20px;
+  font-size: 15px;
   color: var(--textParagraphcolor);
+  text-wrap: nowrap;
 }
 .Stars {
   display: flex;
-  padding-top: 3%;
+  padding-top: 0.1%;
   flex-direction: row;
   width: 100%;
   justify-content: center;
 }
 .Stars h1 {
-  font-size: 17px;
+  font-size: 15px;
 }
 .fa {
   padding-left: 2%;
@@ -128,12 +129,12 @@
   .AverageRating h1 {
     font-size: 17px;
     color: var(--textParagraphcolor);
-    padding-left: 5%;
+    padding-left: 0%;
     padding-top: 0%;
   }
 
   .Stars{
-    padding-left: 3%;
+    padding-left: 0%;
   }
 
   .middle {
@@ -154,12 +155,11 @@
   }
   
   .Testimonial {
-    padding-top: 4%;
+    padding-top: 5%;
     justify-content: left;
   }
 
   .Testimonial h1 {
-    padding-left: 5%;
     font-size: 35px;
   }
 
