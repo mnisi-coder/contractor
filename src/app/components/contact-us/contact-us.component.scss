@@ -30,6 +30,8 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-bottom: 16px;
   resize: vertical;
+  border: none;
+  box-shadow: rgba(34, 34, 34, 0.151) 0px 3px 3px 0px;
 }
 
 input[type=submit] {
@@ -44,7 +46,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: var(--textSecondarycolor);
   color: var(--secondaryMain);
-
 }
 //Form Container(Inputs)
 .containerI{
@@ -57,25 +58,29 @@ padding-top: 7%;
 @media screen and (min-width: 1024px){
 //main container for Image And Form ROW for desktop//
   .ContactImg{
+    border-radius: 9px;
+    margin-top: 0%;
     display: flex;
     flex-direction:row;
+    margin-left: 10%;
+    width: 80%;
+
+
+    height: 80vh;
   }
-  
-.ContactImg{
-  display: flex;
-  width: 80%;
-  justify-content: center;
-  align-items: center;
-  margin-left: 6%;
-}
+  .containerI{
+    padding-top: 4%;
+    }
 //we display the image on desktop
 .imageContact{
   display: flex;
-  width: 90%;
+  flex-direction: row;
+  justify-content: left;
+  width: 40%;
 }
 //image class//
 .img{
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
 
@@ -83,5 +88,6 @@ padding-top: 7%;
 //container for inputs
 .containerI{
   width: 50%; 
+  
 }
 }
