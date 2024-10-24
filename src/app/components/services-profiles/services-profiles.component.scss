@@ -56,7 +56,6 @@ padding-top: 1%;
     flex-direction: column;
     width: 90%;
     padding-left: 3%;
-
 }
 .ProfileInfo h1{
     font-size: 12px;
@@ -114,10 +113,12 @@ padding-left: 65%;
   .Profile{
   width: 30%;
   }
+  
   .ProfileContainer{
     width: 22%;
     flex-direction: row;
     margin: 0.90%;
+    height: 20vh;
   }
   
   .Results{
@@ -130,4 +131,8 @@ padding-left: 65%;
   .pagination a {
     padding: 8px 25px;
   }
+  .center {
+    margin-top:3%;
+      text-align: center;
+    }
 }
