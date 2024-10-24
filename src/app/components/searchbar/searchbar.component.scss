@@ -37,7 +37,7 @@
     padding-left: 2%;
 }
 .SearchBTN{
-    width:7%;
+    width:15%;
     background-color:var(--main);
     border: none;
     color: white;
@@ -60,6 +60,9 @@
     }
     .MainText h1{
         font-size:40px;
+    }
+    .SearchBTN{
+        width:7%;
     }
 
   }
