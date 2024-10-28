@@ -2,18 +2,19 @@
     width: 100%;
     display: flex;
     flex-direction:row;
-    justify-content: center;
-    position: sticky; 
-    bottom: 0;
-    background-color: white;
+    margin-top: 5%;
 }
 .StickyFooter{
     display: flex;
     flex-direction:row;
     justify-content: center;
-    margin: 2%;
-    margin-top: 5%;
-   
+    margin-top: 15%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color:white;
+    width: 100%;
+
 }
 
 .btn{
@@ -33,7 +34,4 @@
     .StickyFooterContainer{
     display: none;
     }
-
-
-
 }
